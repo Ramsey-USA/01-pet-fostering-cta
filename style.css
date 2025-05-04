@@ -1,0 +1,99 @@
+/* General styles for the page */
+body {
+  font-family: 'Georgia', serif; /* Soothing, elegant font for the entire page */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Light blue background for a calming effect */
+}
+
+/* Styles for the Site Header */
+.site-header {
+  background-color: #005f6b; /* Dark teal for a bold header */
+  color: white; /* White text for contrast */
+  text-align: center; /* Center-align text */
+  padding: 20px 0; /* Add space inside the header */
+}
+
+.site-header h1 {
+  font-size: 3.5em; /* Medium font size for the site name */
+  margin: 0; /* Remove default margin */
+}
+
+/* Styles for the Call-to-Action banner */
+.cta-banner {
+  background-image: url('img/cta-bg.jpg'); /* Set the background image */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center; /* Center the image */
+  position: relative; /* Position for overlay */
+  color: white; /* White text for contrast */
+  text-align: center; /* Center-align text */
+  padding: 100px 20px; /* Increased padding to make the section taller */
+}
+
+/* Overlay to darken the background image */
+.cta-banner .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  padding: 20px; /* Add padding inside the overlay */
+}
+
+/* Main heading styles */
+.cta-banner h1 {
+  font-size: 2em; /* Large, attention-grabbing font size */
+  margin: 0 0 20px 0; /* Removed top margin and kept space below the heading */
+}
+
+/* Description paragraph styles */
+.cta-banner p {
+  font-size: 1em; /* Standard font size for readability */
+  margin-bottom: 30px; /* Space below the paragraph */
+}
+
+/* Call-to-Action button styles */
+.cta-button {
+  background-color: #00bcd4; /* Bright teal for visibility */
+  color: white; /* White text for contrast */
+  padding: 10px 20px; /* Add space inside the button */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Button hover effect */
+.cta-button:hover {
+  background-color: #005f6b; /* Darker teal on hover */
+}
+
+/* Styles for the Information Section */
+.info-section {
+  text-align: center; /* Center the entire section horizontally */
+  margin: 50px 0; /* Add space above and below the section */
+}
+
+.info-content {
+  display: inline-block; /* Center the content block horizontally */
+  text-align: left; /* Align text inside the block to the left */
+  vertical-align: middle; /* Align content vertically */
+}
+
+.info-image {
+  display: inline-block; /* Keep the image inline with the text */
+  vertical-align: middle; /* Align the image vertically */
+  width: 400px; /* Set a fixed width for the image */
+  margin-right: 20px; /* Add space between the image and text */
+  border-radius: 15px; /* Round the corners of the image */
+}
+
+.info-text {
+  display: inline-block; /* Keep the text inline with the image */
+  vertical-align: middle; /* Align the text vertically */
+  max-width: 600px; /* Limit the width of the text for better readability */
+}
+
+.info-text h2 {
+  font-size: 1.5em; /* Medium heading size */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.info-text p {
+  font-size: 1em; /* Standard font size for readability */
+  margin: 0; /* Remove default margins */
+}

@@ -128,3 +128,19 @@ body {
   font-size: 1em; /* Standard font size for readability */
   margin: 0; /* Remove default margins */
 }
+
+/* Styles for the Main Section */
+.main-content {
+  border: 8px solid green; /* Add a green border around the main section */
+  padding: 5px; /* Add some padding inside the border */
+  margin: 40px; /* Add space outside the border */
+}
+
+/* Styles for the Footer */
+.site-footer {
+  background-color: #005f6b; /* Dark teal for consistency with the header */
+  color: white; /* White text for contrast */
+  text-align: center; /* Center-align the text */
+  padding: 10px 0; /* Add space inside the footer */
+  font-size: 0.9em; /* Slightly smaller font size */
+}
